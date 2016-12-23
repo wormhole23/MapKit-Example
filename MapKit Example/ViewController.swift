@@ -19,10 +19,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-//        let initialLocation = CLLocation(latitude: 43.222, longitude: 76.8512)
-//        
-//        self.centerMapOnLocation(location: initialLocation)
-        
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
         
